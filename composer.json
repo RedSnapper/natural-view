@@ -1,0 +1,24 @@
+{
+    "name": "rs/natural-view",
+    "description": "XPath Dom library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "RedSnapper\\NaturalView\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RedSnapper\\NaturalView\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "ext-dom": "*",
+        "psr/log": "^3.0",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.5"
+    }
+}
