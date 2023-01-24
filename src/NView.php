@@ -676,8 +676,8 @@ class NView
         } else {
             // Treat value as xml to be parsed.
             if (mb_check_encoding($value)) {
-                $wss = array("\r\n", "\n", "\r", "\t"); //
-                $value = str_replace($wss, "", $value); //str_replace should be mb safe.
+//                $wss = array("\r\n", "\n", "\r", "\t"); //
+//                $value = str_replace($wss, "", $value); //str_replace should be mb safe.
                 $this->initDoc();
                 $this->doc->loadXML($value);
                 $this->initXPath();
